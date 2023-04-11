@@ -20,8 +20,20 @@ body{
 /* Background Image */ 
 
 
-/* Nav Bar */
+/* .container{
+  width: 100vw;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+          "navbar"
+          "birb"
+          "portfolio-container"
+          "about-me-container"
+          "contact";
+} */
 
+/* Nav Bar */
 
 nav{
     position:fixed;
@@ -38,6 +50,7 @@ nav{
     font-family: 'Ubuntu', sans-serif;
     
   } 
+
  .glass{
     background: rgba(159, 204, 255, 0.404);
         box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
@@ -57,7 +70,7 @@ nav{
        li{
           list-style: none;
           text-decoration: none;
-          padding: 20px 10px;
+          padding: 20px;
        }
 
  
@@ -147,6 +160,19 @@ a:hover{
 /* fixing image overflow problem on mobile */
 img {
   max-width: 100%;
+}
+
+/* .birb img{
+  width:60vw;
+  margin: 0 auto;
+  grid-area: logo;
+} */
+.birb{
+  /* margin-left: 30%; */
+  /* margin-right: 30%; */
+  margin: 0 auto;
+  grid-area: logo;
+  /* display: flex; */;
 }
 
 /* .birb {
