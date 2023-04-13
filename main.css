@@ -10,6 +10,64 @@ body{
   width:100%;
 }    
 
+.me{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.job {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(89, 150, 255);
+}
+
+.abouttext {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+  top: 15px;
+  position: relative;
+}
+
+.about-text-wrapper {
+  position: relative;
+  top: 150px;
+  width: 80%;
+  left: 50px;
+}
+
+
+/* Nav text hover */
+.animate_headShake:hover  {
+  animation: headShakeLEFT 1.5s infinite;
+}
+  @keyframes headShakeLEFT {
+    0% {
+      transform: translateX(0);
+    }
+    6.5% {
+      transform: translateX(-6px) rotateY(-9deg);
+    }
+    18.5% {
+      transform: translateX(5px) rotateY(7deg);
+    }
+    31.5% {
+      transform: translateX(3px) rotateY(-5deg);
+    }
+    43.5% {
+      transform: translateX(2px) rotateY(3deg);
+    }
+    50% {
+    }
+  }
+  .animate_headShakeRIGHT:hover  {
+    animation: headShakeLEFT 3s infinite;
+  }
+<h1 class="animate__animated animate_headShake">
+
 /* Background Image */ 
 /* body {
         background-image: url('assets/Background_Shape.png');
