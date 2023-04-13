@@ -41,32 +41,7 @@ body{
 
 
 /* Nav text hover */
-.animate_headShake:hover  {
-  animation: headShakeLEFT 1.5s infinite;
-}
-  @keyframes headShakeLEFT {
-    0% {
-      transform: translateX(0);
-    }
-    6.5% {
-      transform: translateX(-6px) rotateY(-9deg);
-    }
-    18.5% {
-      transform: translateX(5px) rotateY(7deg);
-    }
-    31.5% {
-      transform: translateX(3px) rotateY(-5deg);
-    }
-    43.5% {
-      transform: translateX(2px) rotateY(3deg);
-    }
-    50% {
-    }
-  }
-  .animate_headShakeRIGHT:hover  {
-    animation: headShakeLEFT 3s infinite;
-  }
-<h1 class="animate__animated animate_headShake">
+
 
 /* Background Image */ 
 /* body {
@@ -121,7 +96,7 @@ nav{
            
         ul {
           display: flex;
-          gap: 1rem;
+          gap: 5rem;
           align-items: center; 
       }     
   
@@ -220,25 +195,19 @@ img {
   max-width: 100%;
 }
 
-/* .birb img{
-  width:60vw;
-  margin: 0 auto;
-  grid-area: logo;
-} */
-.birb{
-  /* margin-left: 30%; */
-  /* margin-right: 30%; */
-  margin: 0 auto;
-  grid-area: logo;
-  /* display: flex; */;
+.birb img{
+  scale: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: -225px;
+  position: relative;
 }
 
-/* .birb {
-  scale: 20%;
-  margin: auto;
-  width: 640px; 
-
-} */
+div.birb {
+  height: 0px;
+}
 
 /* Image Grid */
 
@@ -320,12 +289,14 @@ img {
   }
   @media only screen and (min-width: 1200px) {
   
+/* desktop */
+
     .link{
         font-size: 20px;  
       }
 
         ul {
-          gap: 2rem;
+          gap: .1rem;
       }      
       li{
         padding: 10px 45px;
