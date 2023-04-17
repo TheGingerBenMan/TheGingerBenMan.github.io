@@ -116,7 +116,7 @@ nav{
 }
 
 a:hover{
-    color: rgb(247, 233, 121);
+    color: rgb(255, 110, 13);
 }
 
 /* Image Grid */
@@ -280,7 +280,7 @@ div.birb {
     background-color: rgba(0, 0, 0, 0.182);
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     margin-top:25%;
   }
   
