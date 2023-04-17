@@ -116,14 +116,17 @@ nav{
 }
 
 a:hover{
-    color: rgb(255, 225, 0);
+    color: rgb(247, 233, 121);
 }
 
 /* Image Grid */
 .image-gallery {
+  display:grid;
   margin-left: 10%;
   margin-right:10%;
+  margin-top: 20%;
   padding-bottom: 20%;
+  grid-gap: 10px;
   grid-template-columns: 1fr;
   grid-template-areas:
   "a"
@@ -278,7 +281,7 @@ div.birb {
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 200;
-    margin-top:100px;
+    margin-top:25%;
   }
   
   .hovereffect:hover p, .hovereffect:hover h2 {
@@ -292,6 +295,12 @@ div.birb {
   
 /* desktop */
 
+body{
+    background: url('assets/Background_Shape.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
+    background-size: 100% auto, cover;
+    width:100%;
+}   
+
     .link{
         font-size: 20px;  
       }
@@ -302,10 +311,12 @@ div.birb {
       li{
         padding: 10px 45px;
       }
+
         .image-gallery {
+          display: grid;
+          margin-top: 0%;
           scale: 80%;
           height: 100%;
-          display: grid;
           grid-template-columns: 1fr 1fr 1fr;
           grid-template-rows: auto;
           grid-gap: 15px;
