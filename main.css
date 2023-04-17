@@ -5,7 +5,7 @@
     }
 
 body{
-  background: url('assets/Background_Shape.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
+  background: url('assets/Ellipse.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
   background-size: 100% auto, cover;
   width:100%;
 }    
@@ -36,7 +36,7 @@ body{
   position: relative;
   top: 0px;
   width: 80%;
-  left: 50px;
+  left: 10px;
 }
 
 
