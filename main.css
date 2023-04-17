@@ -34,7 +34,7 @@ body{
 
 .about-text-wrapper {
   position: relative;
-  top: 150px;
+  top: 0px;
   width: 80%;
   left: 50px;
 }
@@ -333,8 +333,13 @@ body{
         grid-row:auto;
         padding-top:120px;
       }
+  
+  .about-text-wrapper {
+    position: relative;
+    top: 150px;
+    width: 80%;
+    left: 50px;
   }
-
-
+    }
 
  
