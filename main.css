@@ -5,66 +5,34 @@
     }
 
 body{
-  background: url('assets/Ellipse.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
+  background: url('assets/ellipse2.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
   background-size: 100% auto, cover;
   width:100%;
 }    
 
-.me{
-  font-size: 40px;
-  font-weight: 700;
-  font-family: 'Ubuntu', sans-serif;
-}
 
-.job {
-  font-size: 25px;
-  font-weight: 500;
-  font-family: 'Ubuntu', sans-serif;
-  color: rgb(89, 150, 255);
-}
 
-.abouttext {
-  font-size: 15px;
-  font-weight: 300;
-  font-family: 'Ubuntu', sans-serif;
-  line-height: 150%;
-  top: 15px;
+/* fixing image overflow problem on mobile */
+img {
+  max-width: 100%;
+}
+/* fixing image overflow problem on mobile */
+
+/* Bird */
+.birb img{
+  scale: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: 30px;
   position: relative;
 }
 
-.about-text-wrapper {
-  position: relative;
-  top: 0px;
-  width: 80%;
-  left: 10px;
+div.birb {
+  height: 0px;
 }
-
-
-/* Nav text hover */
-
-
-/* Background Image */ 
-/* body {
-        background-image: url('assets/Background_Shape.png');
-        background-repeat: no-repeat, no-repeat;
-        background-position: center, none;
-        background-size: 100% auto, cover;
-    } */
-/* Background Image */ 
-
-
-/* .container{
-  width: 100vw;
-  display:grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-          "navbar"
-          "birb"
-          "portfolio-container"
-          "about-me-container"
-          "contact";
-} */
+/* Bird */
 
 /* Nav Bar */
 
@@ -119,14 +87,18 @@ a:hover{
     color: rgb(255, 225, 0);
 }
 
+/* Nav Bar */
+
 /* Image Grid */
 .image-gallery {
   display:grid;
+  scale: 75%;
+  transform: translateY(-310px);
   margin-left: 10%;
   margin-right:10%;
-  margin-top: 20%;
+  /* margin-top: 20%; */
   padding-bottom: 20%;
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-template-columns: 1fr;
   grid-template-areas:
   "a"
@@ -184,35 +156,9 @@ a:hover{
     font-size: 2em;
     padding-right: .5ch;
 }
-/* about me section */
-.about-me-container{
-  display:grid;
-  margin-left:10%;
-  margin-right:10%;
-  grid-template-columns: 1fr;
-  grid-row:auto;
-  padding-top:70px;
-}
-/* fixing image overflow problem on mobile */
-img {
-  max-width: 100%;
-}
-
-.birb img{
-  scale: 15%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  top: -225px;
-  position: relative;
-}
-
-div.birb {
-  height: 0px;
-}
-
 /* Image Grid */
+
+/* Image Hover Grid */
 
 .hovereffect {
     width: 100%;
@@ -291,15 +237,110 @@ div.birb {
     -ms-transform: scale(1);
     transform: scale(1);
   }
+
+/* Image Hover Grid */
+  
+/* About Me Styling */
+
+.me{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.job {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(89, 150, 255);
+}
+
+.abouttext {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+  top: 15px;
+  position: relative;
+}
+
+.about-text-wrapper {
+  position: relative;
+  top: 0px;
+  width: 80%;
+  left: 10px;
+  transform: translateY(-150px);
+}
+
+.about-me-container{
+  display:grid;
+  margin-left:5%;
+  margin-right:0%;
+  margin-top: 0%;
+  grid-template-columns: 1fr;
+  grid-row:auto;
+  padding-top:70px;
+  transform: translateY(-630px);
+  /* grid-template-areas: 
+  "benjamin"
+  "about-text-wrapper"  */
+  ;
+}
+/* About Me Styling */
+
+/* Desktop Style \/ */
   @media only screen and (min-width: 1200px) {
   
 /* desktop */
+
+/* Bird */
+.birb img{
+  scale: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: -225px;
+  position: relative;
+}
+
+div.birb {
+  height: 0px;
+}
+/* Bird */
+
 
 body{
     background: url('assets/Background_Shape.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
     background-size: 100% auto, cover;
     width:100%;
 }   
+
+nav{
+  position:fixed;
+  top: 2%;
+  margin: auto;
+  z-index:10;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  
+} 
+
+.glass{
+  background: rgba(159, 204, 255, 0.404);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+      border-radius: 50px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      border-right: 2px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+}
 
     .link{
         font-size: 20px;  
@@ -317,6 +358,7 @@ body{
           margin-top: 0%;
           scale: 80%;
           height: 100%;
+          transform: translateY(0px);
           grid-template-columns: 1fr 1fr 1fr;
           grid-template-rows: auto;
           grid-gap: 15px;
@@ -329,9 +371,13 @@ body{
       }
       .about-me-container{
         display:grid;
+        margin-left:10%;
+        margin-right:10%;
+        margin-top: 0%;
         grid-template-columns: 1fr 1fr;
         grid-row:auto;
         padding-top:120px;
+        transform: translateY(0px);
       }
   
   .about-text-wrapper {
@@ -339,6 +385,7 @@ body{
     top: 150px;
     width: 80%;
     left: 50px;
+    transform: translateY(0px);
   }
     }
 
