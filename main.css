@@ -153,6 +153,17 @@ a:hover{
     color: rgb(255, 225, 0);
 }
 
+/* Grow on hover */
+  .grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.1); 
+  
+  }
+  /* Grow on hover */
+
 /* Nav Bar */
 
 /* Image Grid */
