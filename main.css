@@ -159,7 +159,7 @@ a:hover{
 .image-gallery {
   display:grid;
   scale: 75%;
-  transform: translateY(-310px);
+  transform: translateY(-250px);
   margin-left: 10%;
   margin-right:10%;
   /* margin-top: 20%; */
