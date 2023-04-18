@@ -170,7 +170,7 @@ a:hover{
 .image-gallery {
   display:grid;
   scale: 75%;
-  transform: translateY(-250px);
+  transform: translateY(-220px);
   margin-left: 10%;
   margin-right:10%;
   /* margin-top: 20%; */
@@ -189,7 +189,6 @@ a:hover{
   "i"
   ;
 }
-
 .box-styling {
     /* height: 350px; */
     background-color: rgb(110, 110, 110);
