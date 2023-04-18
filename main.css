@@ -38,6 +38,8 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
   display: block;
 }
 
@@ -84,12 +86,12 @@ img {
 
 /* Bird */
 .birb img{
-  scale: 50%;
+  scale: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  top: 30px;
+  top: 10px;
   position: relative;
 }
 

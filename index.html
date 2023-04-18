@@ -24,13 +24,13 @@
 
 <!-- Top Navigation Menu -->
 <div class="topnav">
-  <a href="#home" class="active">Home</a>
+  <a href="#home-container" class="active">Home</a>
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
-    <a href="design.html">Design Portfolio</a>
-    <a href="photo.html">Photography Portfolio</a>
-    <a href="art.html">Art Portfolio</a>
-	<a href="about.html">About</a>
+    <a href="#about-me-container">About Me</a>
+    <a href="design.html">Contact</a>
+    <a href="photo.html">Resume</a>
+	  
   </div>
   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -49,11 +49,11 @@
         <ul class="links">
             <!-- first link -->
             <li>
-            <a href="home" class="link">Home</a>
+            <a href="#home-container" class="link">Home</a>
             </li>
             <!-- second link -->
             <li>
-            <a href="about" class="link">About Me</a>
+            <a href="#about-me-container" class="link">About Me</a>
             </li>
             <!-- third link -->
             <li>
@@ -69,7 +69,7 @@
       </div>
 <!-- end of the navigation area -->
 <!-- A wrapper for all of the page content -->
-<div class="containter">
+<div class="containter" id="home-container">
 
   <div class="birb">
       <img src="assets/birb.gif">
@@ -172,7 +172,7 @@
 <!-- end of the portfolio grid -->
 
 <!-- ABOUT ME SECTION -->
-  <div class="about-me-container">
+  <div class="about-me-container" id="about-me-container">
     <div class="about-text-wrapper">
     <h3 class="me">Benjamin Melavin</h3>
     <h4 class="job">Artist - Designer</h4>
