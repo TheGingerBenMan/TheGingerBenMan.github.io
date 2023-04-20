@@ -192,14 +192,44 @@ a:hover{
 .box-styling {
     /* height: 350px; */
     background-color: rgb(110, 110, 110);
-    border-radius: 20px;
+    /* border-radius: 20px; */
     /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
   }
 .box-wrapper{
   /* height:350px; */
   border-radius: 20px;
+  border: 1px solid black;
+}
+
+/* .box1 {
   border-radius: 20px;
 }
+.box2 {
+  border-radius: 20px;
+}
+.box3 {
+  border-radius: 20px;
+}
+.box4 {
+  border-radius: 20px;
+}
+.box5 {
+  border-radius: 20px;
+}
+.box6 {
+  border-radius: 20px;
+}
+.box7 {
+  border-radius: 20px;
+}
+.box8 {
+  border-radius: 20px;
+}
+.box9 {
+  border-radius: 20px;
+} */
+
+
 .box1 {
     grid-area: a;
 }
@@ -451,6 +481,8 @@ nav{
           "d e f"
           "g h i";
       }
+
+      
       .about-me-container{
         display:grid;
         margin-left:10%;

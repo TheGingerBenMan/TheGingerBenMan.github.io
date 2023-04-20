@@ -1,0 +1,222 @@
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box
+    }
+
+body{
+  background: url('assets/ellipse2.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
+  background-size: 100% auto, cover;
+  width:100%;
+}    
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(159, 204, 255, 0.404);
+  backdrop-filter: blur(10px);
+  position:fixed;
+  top:0;
+  width: 100vw;
+  z-index: 1;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #ff000000;
+  display: block;
+  position: absolute;
+  right: 2%;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  color: #ffff00;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #ffffff00;
+  color: white;
+}
+
+@media (min-width: 1200px){
+
+  .hide-desktop{
+  display: none !important;
+  }
+
+}
+
+  @media (max-width: 1200px){
+  .hide-mobile{
+  display: none !important;
+  }
+
+}
+
+/* fixing image overflow problem on mobile */
+img {
+  max-width: 100%;
+}
+/* fixing image overflow problem on mobile */
+
+
+/* Nav Bar */
+
+nav{
+    position:fixed;
+    top: 2%;
+    margin: auto;
+    z-index:10;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+  } 
+
+ .glass{
+    background: rgba(159, 204, 255, 0.404);
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+        border-radius: 50px;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-right: 2px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+  }
+           
+        ul {
+          display: flex;
+          gap: 5rem;
+          align-items: center; 
+      }     
+  
+       li{
+          list-style: none;
+          text-decoration: none;
+          padding: 20px;
+       }
+
+ 
+.link{
+  text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 12px;   
+    font-weight: 700;
+  
+}
+
+a:hover{
+    color: rgb(255, 225, 0);
+}
+
+/* Grow on hover */
+  .grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.1); 
+  
+  }
+  /* Grow on hover */
+
+/* Nav Bar */
+  
+
+/* Desktop Style \/ */
+  @media only screen and (min-width: 1200px) {
+  
+/* desktop */
+
+body{
+    background: url('assets/Background_Shape.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
+    background-size: 100% auto, cover;
+    width:100%;
+}   
+
+nav{
+  position:fixed;
+  top: 2%;
+  margin: auto;
+  z-index:10;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  
+} 
+
+.glass{
+  background: rgba(159, 204, 255, 0.404);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+      border-radius: 50px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      border-right: 2px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+}
+
+    .link{
+        font-size: 20px;  
+      }
+
+        ul {
+          gap: .1rem;
+      }      
+      li{
+        padding: 10px 45px;
+      }
+
+        .image-gallery {
+          display: grid;
+          margin-top: 0%;
+          scale: 80%;
+          height: 100%;
+          transform: translateY(0px);
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: auto;
+          grid-gap: 15px;
+          padding-top: 150px;
+          padding-bottom: 0px;
+          grid-template-areas:
+          "a b c"
+          "d e f"
+          "g h i";
+      }
+    
+    }
+
+ 
