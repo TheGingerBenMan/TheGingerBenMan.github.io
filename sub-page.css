@@ -10,6 +10,22 @@ body{
   width:100%;
 }    
 
+/* Bird */
+.birb img{
+  scale: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: 10px;
+  position: relative;
+}
+
+div.birb {
+  height: 0px;
+}
+/* Bird */
+
 
 /* Style the navigation menu */
 .topnav {
@@ -150,18 +166,68 @@ a:hover{
   /* Grow on hover */
 
 /* Nav Bar */
-  
+
+
+  .website-mock {
+  border-radius: 50px;
+  position: relative;
+  scale: 65%;
+  border: solid 1px black;
+  left: 5%;
+  bottom: 70px;
+}
+
+.description-wrapper {
+  position: relative;
+  border: solid 1px black;
+  top: 300px;
+  width: 40%;
+  left: 650px;
+  transform: translateY(0px);
+}
+
+.title-work {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Ubuntu', sans-serif;}
+
+.descriptiontext {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+  top: 20px;
+  position: relative;
+}
 
 /* Desktop Style \/ */
   @media only screen and (min-width: 1200px) {
   
 /* desktop */
 
+
+
 body{
     background: url('assets/Background_Shape.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
     background-size: 100% auto, cover;
     width:100%;
 }   
+
+/* Bird */
+.birb img{
+  scale: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: -225px;
+  position: relative;
+}
+
+div.birb {
+  height: 0px;
+}
+/* Bird */
 
 nav{
   position:fixed;
