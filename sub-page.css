@@ -167,38 +167,47 @@ a:hover{
 
 /* Nav Bar */
 
-
+/* content */
   .website-mock {
-  border-radius: 50px;
-  position: relative;
-  scale: 65%;
-  border: solid 1px black;
-  left: 5%;
-  bottom: 70px;
+  border-radius: 20px;
+  /* position: relative; */
+  scale: 100%;
+  /* border: solid 1px black; */
 }
 
-.description-wrapper {
-  position: relative;
-  border: solid 1px black;
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* border: solid 1px black; */
   top: 300px;
-  width: 40%;
+  width: 70%;
   left: 650px;
   transform: translateY(0px);
+  margin: auto;
+  padding-top: 250px;
 }
 
 .title-work {
   font-size: 40px;
   font-weight: 700;
-  font-family: 'Ubuntu', sans-serif;}
+  font-family: 'Ubuntu', sans-serif;
+  transform: translateY(20px);
+  text-align: center;
+}
 
 .descriptiontext {
   font-size: 15px;
   font-weight: 300;
   font-family: 'Ubuntu', sans-serif;
   line-height: 150%;
-  top: 20px;
-  position: relative;
+  bottom: 200px;
+  transform: translateY(50px);
+  text-align: center;
 }
+/* content */
 
 /* Desktop Style \/ */
   @media only screen and (min-width: 1200px) {
@@ -283,6 +292,49 @@ nav{
           "g h i";
       }
     
+    /* content */
+  .website-mock {
+    border-radius: 20px;
+    position: relative;
+    scale: 65%;
+    right: 300px;
+    bottom: 200px;
+    /* border: solid 1px black; */
+  }
+  .descrip {
+    width: 40%;
+  }
+  .description-container {
+    display: flex;
+    /* border: solid 1px black; */
+    top: 300px;
+    width: 70%;
+    left: 650px;
+    transform: translateY(0px);
+    margin: auto;
+    padding-top: 250px;
+  }
+  
+  .title-work {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    transform: translateY(-0px);
+    text-align: left;
+  }
+  
+  .descriptiontext {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 150%;
+    bottom: 200px;
+    transform: translateY(0px);
+    text-align: left;
+    
+  }
+  /* content */
+
     }
 
  
