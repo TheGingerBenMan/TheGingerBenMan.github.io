@@ -198,7 +198,7 @@ a:hover{
 .box-wrapper{
   /* height:350px; */
   border-radius: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* .box1 {
@@ -465,6 +465,11 @@ nav{
         padding: 10px 45px;
       }
 
+      .box-wrapper{
+        /* height:350px; */
+        border-radius: 0px;
+        /* border: 1px solid black; */
+      }
         .image-gallery {
           display: grid;
           margin-top: 0%;
@@ -491,7 +496,7 @@ nav{
         grid-template-columns: 1fr 1fr;
         grid-row:auto;
         padding-top:120px;
-        transform: translateY(0px);
+        transform: translateY(-100px);
       }
   
   .about-text-wrapper {
