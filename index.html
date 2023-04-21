@@ -6,6 +6,7 @@
     <title>Ben's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
     <a href="#about-me-container">About Me</a>
-    <a href="design.html">Contact</a>
+    <a href="#contact-container">Contact</a>
     <a href="photo.html">Resume</a>
 	  
   </div>
@@ -59,7 +60,7 @@
                    <div class="grow">
             <!-- third link -->
             <li>
-            <a href="contact" class="link">Contact</a>
+            <a href="#contact-container" class="link">Contact</a>
             </li>
                   </div>
                   <div class="grow">
@@ -187,7 +188,46 @@
   </div>
     <img src="assets/Benjaman.png" class="benjamin">
     </div>
+<!-- contact section -->
 
+<section class="section-contact" id="contact-container">
+  <div class="container">
+    <h1>Contact</h1>
+    <p>Feel free to reach out to me and I will get back to you as soon as I can!</p>
+
+    <form>
+            <div class="box1">
+      <div class="form-group">
+        <label for="firstname">Full Name</label>
+        <input 
+          type="text" 
+          name="firstname" 
+          id="firstname" 
+          required 
+          class="form-element"
+          placeholder="John Soul" />
+      </div>
+            </div>
+                <div class="box2">
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" required class="form-element" placeholder="john.soul@example.com" />
+      </div>
+                </div>
+            <div class="box3">   
+      <div class="form-group full">
+        <label for="message">What's your message?</label>
+        <textarea name="message" id="message" class="form-element" placeholder="insert your message here..."></textarea>
+      </div>
+            </div> 
+            <div class="box4">
+      <div class="submit-group">
+        <input type="submit" value="SEND" />
+      </div>
+            </div>    
+    </form>
+  </div>
+</section>
 <!-- <section class="shapes">
     <img src="assets/Background_Shape.png">
 </section> -->
