@@ -346,7 +346,7 @@ a:hover{
 .about-text-wrapper {
   position: relative;
   top: 0px;
-  width: 80%;
+  width: 85%;
   left: 10px;
   transform: translateY(-150px);
 }
@@ -408,7 +408,7 @@ a:hover{
   z-index: 100;
   left: 0px;
   scale: 20%;
-  bottom: -200px;
+  bottom: -210px;
   margin: auto;
 
 }
