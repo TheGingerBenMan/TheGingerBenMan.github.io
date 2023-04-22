@@ -118,3 +118,18 @@
 .box4 {
     grid-area: d;
 }
+
+
+input {
+    margin-top: 1rem;
+}
+
+input::file-selector-button {
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    color: dodgerblue;
+    background-color: #f3f3f37a;
+    padding: 0.5em;
+    border: thin solid rgb(70, 153, 255);
+    border-radius: 3px;
+}
