@@ -211,6 +211,7 @@ a:hover{
 /* content */
 
 .site {
+  font-family: 'Ubuntu', sans-serif;
   scale: 30%;
   padding: 25px;
   position: relative;
@@ -218,9 +219,18 @@ a:hover{
 }
 
 .business-card {
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   position: relative;
   top: -150px;
+}
+
+.credit {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 14px;
+  text-align: center;
 }
 
 /* Desktop Style \/ */
