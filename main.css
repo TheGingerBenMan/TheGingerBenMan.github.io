@@ -408,7 +408,7 @@ a:hover{
   z-index: 100;
   left: 0px;
   scale: 20%;
-  bottom: -210px;
+  bottom: -190px;
   margin: auto;
 
 }
@@ -446,6 +446,8 @@ a:hover{
   transform: scale(1.1);
   
 }
+
+
 
 /* Desktop Style \/ */
   @media only screen and (min-width: 1200px) {
