@@ -194,7 +194,7 @@ a:hover{
   font-size: 40px;
   font-weight: 700;
   font-family: 'Ubuntu', sans-serif;
-  transform: translateY(40px);
+  transform: translateY(0px);
   text-align: center;
 }
 
@@ -204,8 +204,8 @@ a:hover{
   font-family: 'Ubuntu', sans-serif;
   line-height: 150%;
   bottom: 200px;
-  transform: translateY(50px);
-  text-align: center;
+  transform: translateY(15px);
+  text-align: left;
   padding-bottom: 200px;
 }
 /* content */
@@ -215,6 +215,12 @@ a:hover{
   padding: 25px;
   position: relative;
   right: 200px;
+}
+
+.business-card {
+  text-align: center;
+  position: relative;
+  top: -150px;
 }
 
 /* Desktop Style \/ */
@@ -304,19 +310,19 @@ nav{
     position: relative;
     scale: 65%;
     right: 300px;
-    bottom: 200px;
+    bottom: 0px;
     /* border: solid 1px black; */
   }
   .descrip {
-    width: 40%;
+    width: 130%;
   }
   .description-container {
     display: flex;
     /* border: solid 1px black; */
-    top: 300px;
-    width: 70%;
+    top: 0px;
+    width: 80%;
     left: 650px;
-    transform: translateY(0px);
+    transform: translateY(400px);
     margin: auto;
     padding-top: 250px;
   }
@@ -335,10 +341,37 @@ nav{
     font-family: 'Ubuntu', sans-serif;
     line-height: 150%;
     bottom: 200px;
-    transform: translateY(0px);
+    transform: translateY(10px);
     text-align: left;
     
   }
+
+  .text_descrip {
+    position: relative;
+    top: -670px;
+    left: 130px;
+    width: 30%;
+  }
+
+  .credit {
+    position: relative;
+    top: -130px;
+    left: -300px;
+  }
+
+  .description-container {
+    /* border: solid 1px black; */
+    max-height: 600px;
+
+  }
+
+  .business-card {
+    text-align: center;
+    position: relative;
+    top: -150px;
+    left: 50px;
+  }
+
   /* content */
 
     }
