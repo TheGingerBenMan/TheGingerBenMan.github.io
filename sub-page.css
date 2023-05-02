@@ -233,6 +233,7 @@ a:hover{
   text-align: center;
 }
 
+
 /* Desktop Style \/ */
   @media only screen and (min-width: 1200px) {
   
@@ -388,6 +389,40 @@ nav{
     padding: 25px;
     position: relative;
     right: 200px;
+  }
+
+  .fireknight {
+    position: relative;
+    width: 50%;
+    top: -130px;
+  }
+
+  .tarot {
+    position: relative;
+    width: 60%;
+    top: -130px;
+  }
+
+  .text_descrip_tarot {
+    position: relative;
+    top: -520px;
+    left: 130px;
+    width: 30%;
+  }
+
+  .text_descrip_crab {
+    position: relative;
+    top: -670px;
+    left: 130px;
+    width: 30%;
+  }
+
+  .sirbird {
+    position: relative;
+    width: 50%;
+    left: 140px;
+    scale: 120%;
+    top: -130px;
   }
 
   /* content */
