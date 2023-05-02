@@ -408,7 +408,7 @@ a:hover{
   z-index: 100;
   left: 0px;
   scale: 20%;
-  bottom: -150px;
+  bottom: -200px;
   margin: auto;
 
 }
@@ -419,7 +419,7 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  top: -550px;
+  top: -520px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -431,7 +431,7 @@ a:hover{
   margin-right: auto;
   display: flex;
   justify-content: center;
-  bottom: 900px;
+  bottom: 870px;
 }
 
 .svg-interaction {
