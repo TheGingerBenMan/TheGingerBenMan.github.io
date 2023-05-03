@@ -447,6 +447,14 @@ a:hover{
   
 }
 
+.typographicname {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  transform: translateY(30px);
+}
+
 /* Desktop Style \/ */
   @media only screen and (min-width: 1200px) {
   
@@ -621,6 +629,22 @@ nav{
   bottom: 80px;
 }
 
+.typographicname {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  transform: translateY(30px);
+}
+
+/* .typographicname2 {
+  position: relative;
+  top: 200px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+} */
 
     }
 
