@@ -10,6 +10,11 @@ body{
   width:100%;
 }    
 
+/* #home-container {
+  border: 5px solid #0A66C2;
+  
+
+} */
 
 /* Style the navigation menu */
 .topnav {
@@ -86,13 +91,13 @@ img {
 
 /* Bird */
 .birb img{
+  position: relative;
   scale: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   top: 10px;
-  position: relative;
 }
 
 div.birb {
@@ -164,17 +169,23 @@ a:hover{
   }
   /* Grow on hover */
 
+#portfolio-container {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
 /* Nav Bar */
 
 /* Image Grid */
 .image-gallery {
   display:grid;
-  scale: 75%;
-  transform: translateY(-220px);
-  margin-left: 10%;
-  margin-right:10%;
-  /* margin-top: 20%; */
-  padding-bottom: 20%;
+  height: 70%;
+  width: 70%;
+  /* scale: 75%; */
+  /* transform: translateY(-220px); */
+  padding-top: 220px;
+  margin: 0px auto;
+  /* padding-bottom: 20%; */
   grid-gap: 20px;
   grid-template-columns: 1fr;
   grid-template-areas:
@@ -358,8 +369,8 @@ a:hover{
   margin-top: 0%;
   grid-template-columns: 1fr;
   grid-row:auto;
-  padding-top:70px;
-  transform: translateY(-450px);
+  padding-top: 220px;
+  /* transform: translateY(-450px); */
   /* grid-template-areas: 
   "benjamin"
   "about-text-wrapper"  */
@@ -392,10 +403,11 @@ a:hover{
 }
 
 .section-contact {
-  min-height: 100vh;
-  padding-top: 100px;
+  min-height: 00vh;
+  padding-top: 00px;
   padding-bottom: 0px;
-  transform: translateY(-550px);
+  margin: 0px;
+  /* transform: translateY(-550px); */
 }
 
 /* contact form */
@@ -403,12 +415,11 @@ a:hover{
 .knight {
   display: flex;
   justify-content: center;
-  width: 100%;
-  position: absolute;
+  width: 20%;
+  position: relative;
   z-index: 100;
   left: 0px;
-  scale: 20%;
-  bottom: -200px;
+  bottom: 100px;
   margin: auto;
 
 }
@@ -419,19 +430,22 @@ a:hover{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  top: -520px;
+  /* top: -520px; */
+  padding-bottom: 50px;
   font-size: 16px;
   font-weight: 300;
 }
 
 .linkedin {
   position: relative;
-  scale: 10%;
+  /* scale: 10%; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
-  bottom: 870px;
+  /* bottom: 870px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .svg-interaction {
@@ -451,8 +465,8 @@ a:hover{
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
-  transform: translateY(30px);
+  padding-bottom: 20px;
+  /* transform: translateY(30px); */
 }
 
 /* Desktop Style \/ */
@@ -593,7 +607,7 @@ nav{
   min-height: 100vh;
   padding-top: 100px;
   padding-bottom: 100px;
-  transform: translateY(330px);
+  transform: translateY(480px);
 }
 .footer {
   display: inline;
@@ -601,7 +615,7 @@ nav{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  top: 250px;
+  top: 415px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -621,12 +635,13 @@ nav{
 
 .linkedin {
   position: relative;
-  scale: 10%;
+  /* scale: 10%; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
-  bottom: 80px;
+  top: 400px;
+  bottom: 100px;
 }
 
 .typographicname {
@@ -634,7 +649,6 @@ nav{
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 50px;
-  transform: translateY(30px);
 }
 
 /* .typographicname2 {
