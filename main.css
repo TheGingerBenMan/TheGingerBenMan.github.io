@@ -546,13 +546,14 @@ nav{
         .image-gallery {
           display: grid;
           margin-top: 0%;
-          scale: 80%;
+          height: 65%;
+          width: 65%;
           height: 100%;
           transform: translateY(0px);
           grid-template-columns: 1fr 1fr 1fr;
           grid-template-rows: auto;
           grid-gap: 15px;
-          padding-top: 150px;
+          padding-top: 250px;
           padding-bottom: 0px;
           grid-template-areas:
           "a b c"
@@ -568,7 +569,7 @@ nav{
         margin-top: 0%;
         grid-template-columns: 1fr 1fr;
         grid-row:auto;
-        padding-top:120px;
+        padding-top:250px;
         transform: translateY(-100px);
       }
   
@@ -607,7 +608,7 @@ nav{
   min-height: 100vh;
   padding-top: 100px;
   padding-bottom: 100px;
-  transform: translateY(480px);
+  transform: translateY(330px);
 }
 .footer {
   display: inline;
@@ -615,7 +616,7 @@ nav{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  top: 415px;
+  top: 300px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -640,7 +641,7 @@ nav{
   margin-right: auto;
   display: flex;
   justify-content: center;
-  top: 400px;
+  top: 300px;
   bottom: 100px;
 }
 
