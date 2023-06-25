@@ -14,66 +14,19 @@
 
 </head>
 <body>
-   <!-- Mobile Nav -->
+ <!-- Top Navigation Menu -->
+<!-- This line of code allows for the nav bar code to be in a seperate HTML doc, thus making it easier to edit across multiple pages. -->
+<div id="nav-placeholder">
 
-  <!-- Mobile Nav -->
-
-<!-- Top Navigation Menu -->
-<div class="hide-desktop">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="index.html#home-container" class="active">Home</a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="index.html#about-me-container">About Me</a>
-    <a href="design.html">Contact</a>
-    <a href="assets/Resume.pdf">Resume</a>
-	  
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
 </div>
-</div>
-<!--  -->
 
-<!-- start of the navigation area -->
-<div class= "hide-mobile">
-        <nav>
-            <div class="glass">
-        <!-- start of an unordered list -->
-        <ul class="links">
-                <div class="grow">
-            <!-- first link -->
-            <li>
-            <a href="index.html#home-container" class="link">Home</a>
-            </li>
-                  </div>
-               <div class="grow">
-            <!-- second link -->
-            <li>
-            <a href="index.html#about-me-container" class="link">About Me</a>
-            </li>
-                   </div>
-                   <div class="grow">
-            <!-- third link -->
-            <li>
-            <a href="contact" class="link">Contact</a>
-            </li>
-                  </div>
-                  <div class="grow">
-            <!-- fourth link -->
-            <li>
-            <a href="assets/Resume.pdf" class="link">Resume</a>
-            </li>
-              </div>
-        </ul>
-            </div>
-        </nav> 
-      </div>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+
+<!-- end of the navigation area -->
 <!-- end of the navigation area -->
 <!-- A wrapper for all of the page content -->
 <div class="birb">
