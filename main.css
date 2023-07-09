@@ -4,11 +4,11 @@
     box-sizing:border-box
     }
 
-body{
+/* body{
   background: url('assets/ellipse2.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
   background-size: 100% auto, cover;
   width:100%;
-}    
+}     */
 
 /* #home-container {
   border: 5px solid #0A66C2;
@@ -472,16 +472,6 @@ a:hover{
 }
 
 
-/* .footer-box {
-  background: linear-gradient(#548ce0, #3f61b0);
-  border-radius: 50px;
-  width: 90%;
-  height: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px;
-} */
-
 
 /* Desktop Style \/ */
   @media only screen and (min-width: 1200px) {
@@ -510,7 +500,7 @@ div.birb {
 
 
 body{
-    background: url('assets/Background_Shape.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
+    background: url('assets/Background_Shape.png') no-repeat,radial-gradient(closest-side, rgba(194,218,242,1) 0%, rgba(216,225,248,1) 100%);
     background-size: 100% auto, cover;
     width:100%;
 }   
@@ -630,7 +620,7 @@ nav{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  top: 300px;
+  top: 60px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -655,15 +645,17 @@ nav{
   margin-right: auto;
   display: flex;
   justify-content: center;
-  top: 300px;
+  top: 30px;
   bottom: 100px;
 }
 
 .typographicname {
+  position: relative;
+  bottom: 10px;
   width: 20%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 /* .typographicname2 {
@@ -674,6 +666,25 @@ nav{
   margin-right: auto;
   padding-bottom: 50px;
 } */
+
+.footer-container {
+  position: relative;
+  overflow: hidden;
+  top: 300px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  border-radius: 80px;
+  width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(159, 204, 255, 0.404);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
 
     }
 
