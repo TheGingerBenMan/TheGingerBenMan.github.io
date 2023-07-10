@@ -4,11 +4,11 @@
     box-sizing:border-box
     }
 
-/* body{
-  background: url('assets/ellipse2.png') no-repeat,radial-gradient(closest-side, rgba(255,255,255,1) 0%, rgba(216,225,248,1) 100%);
+body{
+  background: url('assets/ellipse2.png') no-repeat,radial-gradient(closest-side, rgba(194,218,242,1) 0%, rgba(216,225,248,1) 100%);
   background-size: 100% auto, cover;
   width:100%;
-}     */
+}    
 
 /* #home-container {
   border: 5px solid #0A66C2;
@@ -491,6 +491,7 @@ a:hover{
   width: 50%;
   top: -225px;
   position: relative;
+  z-index: 1;
 }
 
 div.birb {
@@ -500,10 +501,22 @@ div.birb {
 
 
 body{
-    background: url('assets/Background_Shape.png') no-repeat,radial-gradient(closest-side, rgba(194,218,242,1) 0%, rgba(216,225,248,1) 100%);
+    background: radial-gradient(closest-side, rgba(194,218,242,1) 0%, rgba(216,225,248,1) 100%);
     background-size: 100% auto, cover;
     width:100%;
 }   
+    .oval {
+      position: relative;
+      width: 1300px;
+      height: 500px;
+      background: #0964BF;
+      border-radius: 2500px / 700px;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 320px;
+      z-index: 0;
+    }
+  
 
 nav{
   position:fixed;
