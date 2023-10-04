@@ -212,6 +212,7 @@ a:hover{
   /* border: 1px solid black; */
 }
 
+
 .box1 {
     grid-area: a;
 }
@@ -503,19 +504,8 @@ div.birb {
 body{
     background: radial-gradient(closest-side, rgba(194,218,242,1) 0%, rgba(216,225,248,1) 100%);
     background-size: 100% auto, cover;
-    width:100%;
+    max-width:100%;
 }   
-    .oval {
-      position: relative;
-      width: 1300px;
-      height: 500px;
-      background: #0964BF;
-      border-radius: 2500px / 700px;
-      margin-left: auto;
-      margin-right: auto;
-      bottom: 320px;
-      z-index: 0;
-    }
   
 
 nav{
@@ -563,6 +553,7 @@ nav{
         .image-gallery {
           display: grid;
           margin-top: 0%;
+          object-fit: cover;
           height: 65%;
           width: 65%;
           height: 100%;
@@ -686,17 +677,10 @@ nav{
   top: 300px;
   padding-bottom: 0px;
   padding-top: 0px;
-  border-radius: 80px;
-  width: 87%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(159, 204, 255, 0.404);
-  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
-  border-radius: 50px;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  border-right: 2px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px);
+  background-color: rgba(159, 204, 255, 0.404);
 }
 
     }
