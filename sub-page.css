@@ -314,22 +314,38 @@ text-align: center;
 .video1{
   display: flex;
   justify-content: center;
+  width: 20% !important;
+  height: auto !important;
   padding-bottom: 20px;
         }
  .video2{
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: auto;
   padding-bottom: 20px;
          }
   .video3{
      display: flex;
       justify-content: center;
+      width: 100%;
+      height: auto;
       padding-bottom: 20px;
         }
 
         .tarot {
           padding-bottom: 20px;
         }
+
+    #video1 {
+      width: 500% !important;
+        }
+   #video2 {
+     width: 100% !important;
+        }
+   #video3 {
+    width: 100% !important;
+         }
 
 }
 
@@ -465,22 +481,38 @@ text-align: center;
 .video1{
   display: flex;
   justify-content: center;
+  width: 20% !important;
+  height: auto !important;
   padding-bottom: 20px;
         }
  .video2{
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: auto;
   padding-bottom: 20px;
          }
   .video3{
      display: flex;
       justify-content: center;
+      width: 100%;
+      height: auto;
       padding-bottom: 20px;
         }
 
         .tarot {
           padding-bottom: 20px;
         }
+
+        #video1 {
+          width: 500% !important;
+            }
+       #video2 {
+         width: 100% !important;
+            }
+       #video3 {
+        width: 100% !important;
+             }
 
       }
 
@@ -550,21 +582,39 @@ text-align: center;
           border-radius: 35px;
           /* border: 1px solid black; */
         }
-       .video1{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 20px;
-              }
-       .video2{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 20px;
-               }
-        .video3{
-           display: flex;
-            justify-content: center;
-            padding-bottom: 20px;
-              }
+     
+        .video1{
+          display: flex;
+          justify-content: center;
+          width: 20% !important;
+          height: auto !important;
+          padding-bottom: 20px;
+                }
+         .video2{
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          height: auto;
+          padding-bottom: 20px;
+                 }
+          .video3{
+             display: flex;
+              justify-content: center;
+              width: 100%;
+              height: auto;
+              padding-bottom: 20px;
+                }
+        
+                #video1 {
+                  width: 500% !important;
+                    }
+               #video2 {
+                 width: 100% !important;
+                    }
+               #video3 {
+                width: 100% !important;
+                     }
+
 /* content */
   .website-mock {
   border-radius: 20px;
