@@ -1177,14 +1177,14 @@ nav{
 .footer-container {
   position: relative;
   overflow: hidden;
-  top: 300px;
+  top: 100px;
   padding-bottom: 0px;
   padding-top: 0px;
-  width: 100%;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
   /* background-color: #0abcf9; */
-  background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
+  /* background-image: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%); */
 }
 
     }
