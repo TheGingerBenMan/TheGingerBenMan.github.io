@@ -416,12 +416,12 @@ border-radius: 1.5rem;
   grid-template-areas:
   "a"
   "b";
-  padding-bottom: 15%;
+  padding-bottom: 35%;
   padding-top: 12.5%;
 }
 
 .project-title{
-  font-size: calc(2.2vw + 2.2vh);
+  font-size: calc(2vw + 2vh);
 }
 
 .project-subtitle {
@@ -429,15 +429,15 @@ border-radius: 1.5rem;
 }
 
 .project-text3 {
-  font-size: calc(1vw + 1vh);
+  font-size: calc(1.2vw + 1.2vh);
 }
 
 .project-text2 {
-  font-size: calc(1vw + 1vh);
+  font-size: calc(1.2vw + 1.2vh);
 }
 
 .project-text {
-  font-size: calc(1vw + 1vh);
+  font-size: calc(1.2vw + 1.2vh);
   width: 100%;
 }
 

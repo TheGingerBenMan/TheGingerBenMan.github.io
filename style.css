@@ -837,6 +837,30 @@ background: linear-gradient(180deg, rgba(0,129,255,1) 20%, rgba(37,65,248,1) 100
     left: 7rem;
   }
   
+  .box2 img {
+    bottom: 2rem;
+  }
+  
+  .box3 img {
+    bottom: 3rem;
+  }
+  
+  .box4 img {
+    bottom: 2.5rem;
+  }
+  
+  .box5 img {
+    bottom: 3.5rem;
+  }
+  
+  .box6 img {
+    bottom: 3rem;
+  }
+  
+  .box7 img {
+    bottom: 3.5rem;
+  }
+  
   .project-title {
     font-size: calc(1.6vw + 1.6vh);
   }
