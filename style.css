@@ -940,7 +940,7 @@ background: linear-gradient(180deg, rgba(0,129,255,1) 20%, rgba(37,65,248,1) 100
 }
 
 .boxy {
-  width: 80%;
+  width: 100%;
   padding-bottom: 10%;
   left: 5%;
   position: relative;
@@ -955,7 +955,7 @@ background: linear-gradient(180deg, rgba(0,129,255,1) 20%, rgba(37,65,248,1) 100
   font-size: calc(1.18vw + 1.18vh);
   width: 118%;
   padding-bottom: 5%;
-  margin: auto;
+  width: 80%;
 }
 
 .LinkedinSVG {
