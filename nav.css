@@ -1,0 +1,224 @@
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background: rgba(4, 63, 131, 0.404);
+  backdrop-filter: blur(10px);
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index: 10;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.type-logo{
+    position: absolute;
+    width: 9%;
+    left: 85%;
+    display: block;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Jost', sans-serif;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #ff000000;
+  display: block;
+  position: absolute;
+  right: 2%;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  color: #ffe600;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #ffffff00;
+  color: white;
+}
+
+@media (min-width: 1200px){
+
+  .hide-desktop{
+  display: none !important;
+  }
+
+}
+
+  @media (max-width: 1200px){
+  .hide-mobile{
+  display: none !important;
+  }
+
+}
+
+/* fixing image overflow problem on mobile */
+img {
+  max-width: 100%;
+}
+/* fixing image overflow problem on mobile */
+
+
+/* Nav Bar */
+           
+        ul {
+          display: flex;
+          gap: 5rem;
+          align-items: center; 
+      }     
+  
+       li{
+          list-style: none;
+          text-decoration: none;
+          padding: 20px;
+       }
+
+ 
+.link{
+  text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 12px;   
+    font-weight: 500;
+  
+}
+
+a:hover{
+  color: #fff698;
+}
+
+/* Grow on hover */
+  .grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.05); 
+  
+  }
+  /* Grow on hover */
+
+
+/* Mobile Style */
+
+@media only screen and (max-width: 481px) {
+
+}
+
+/* Mobile Style */
+
+/* tablet style */
+@media only screen and (min-width: 481px) and (max-width: 1200px) {
+       
+    nav{
+      position:fixed;
+      top: 2%;
+      margin: auto;
+      z-index:10;
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Jost', sans-serif;
+      
+    } 
+    
+    .glass{
+      background: rgba(4, 63, 131, 0.404);
+          box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+          border-radius: 50px;
+          border: 2px solid rgba(255, 255, 255, 0.5);
+          border-right: 2px solid rgba(255, 255, 255, 0.2);
+          border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+          backdrop-filter: blur(10px);
+    }
+    
+        .link{
+            font-size: 20px;  
+          }
+    
+            ul {
+              gap: .1rem;
+          }      
+          li{
+            padding: 10px 45px;
+          }
+    
+          .box-wrapper{
+            /* height:350px; */
+            border-radius: 20px;
+            /* border: 1px solid black; */
+          }
+        }
+    
+        
+ /* Desktop Style */
+  @media only screen and (min-width: 1200px) {
+
+nav{
+  position:fixed;
+  /* top: 2%; */
+  margin: auto;
+  z-index:10;
+  width: 100%;
+  /* display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center; */
+  font-family: 'Jost', sans-serif;
+  
+} 
+
+.glass{
+  background: rgba(4, 63, 131, 0.404);
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+      border-radius: 0px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      border-right: 2px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+}
+
+    .link{
+        font-size: 18px;
+        font-family: 'Jost', sans-serif;
+        position: relative;
+      }
+
+        ul {
+          gap: .1rem;
+          margin-left: 6%;
+      }      
+      li{
+        text-align: right;
+      }
+
+      .nav-text {
+        width: 85%;
+      }
+
+    }

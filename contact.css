@@ -1,33 +1,15 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.section-contact .container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 32px;
-}
-/* @media (min-width: 768px) {
-    .section-contact .container {
-        padding-left: 64px;
-        padding-right: 64px;
-   }
-}
-@media (min-width: 1024px) {
-    .section-contact .container {
-        padding-left: 128px;
-        padding-right: 128px;
-   }
+    font-family: 'Jost', sans-serif;
 } */
+
 .section-contact .container h1 {
     color: rgb(89, 150, 255);
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Jost', sans-serif;
     text-transform: uppercase;
     text-align: left;
     margin-bottom: 16px;
@@ -36,7 +18,7 @@
     color: #888;
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Jost', sans-serif;
     line-height: 1.5;
     text-align: left;
     margin-bottom: 32px;
@@ -52,11 +34,11 @@
 }
 .section-contact .container form .form-group label {
     display: block;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     color: #888;
     font-size: 14px;
     font-weight: 300;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 .section-contact .container form .form-group .form-element {
     appearance: none;
@@ -83,6 +65,7 @@
     text-align: right;
 }
 .section-contact .container form .submit-group input[type="submit"] {
+    position: relative;
     appearance: none;
     border: none;
     outline: none;
@@ -93,6 +76,8 @@
     color: #fff;
     cursor: pointer;
     transition: 0.4s;
+    width: 20%;
+    right: 3%;
 }
 .section-contact .container form .submit-group input[type="submit"]:hover {
     background-color: #ffb10a;
@@ -107,16 +92,16 @@
   }
 
 
-.box1 {
+.boxa {
     grid-area: a;
 }
-.box2 {
+.boxb {
     grid-area: b;
 }
-.box3 {
+.boxc {
     grid-area: c;
 }
-.box4 {
+.boxd {
     grid-area: d;
 }
 
@@ -126,11 +111,42 @@ input {
 }
 
 input::file-selector-button {
-    font-weight: 300;
-    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-family: 'Jost', sans-serif;
     color: dodgerblue;
     background-color: #f3f3f37a;
     padding: 0.5em;
     border: thin solid rgb(70, 153, 255);
     border-radius: 3px;
 }
+
+.section-contact .container form {
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    /* width: 70%; */
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    background-color: #fff;
+    padding: 7%;
+    border-radius: 16px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    background: rgba(159, 204, 255, 0.404);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    grid-template-areas:
+          "a"
+          "b"
+          "c"
+          "e"
+          "d";
+}  
+
+label[for="message"]{
+    padding-bottom: 3%;
+}
+
+
