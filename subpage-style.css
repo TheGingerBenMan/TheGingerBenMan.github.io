@@ -162,6 +162,32 @@
     width: 85%;
   }
 
+  .project1 {
+    position: relative;
+    width: 95%;
+    grid-area: b;
+    border-radius: 2rem;
+    /* left: 10%; */
+  }
+
+  .project7 {
+    position: relative;
+    width: 57%;
+    grid-area: b;
+    border-radius: 2rem;
+    left: 37%;
+    top: 2%;
+  }
+
+  .project8 {
+    position: relative;
+    width: 32%;
+    grid-area: b;
+    border-radius: 2rem;
+    right: 57.5%;
+    top: 2%;
+  }
+
   .project2 {
     position: relative;
     width: 95%;
@@ -299,13 +325,40 @@
 .project-text-wrapper {
   width: 100%;
   /* padding-bottom: 45%; */
-  grid-area: a;
+  grid-area: b;
+}
+
+.project-wrapper {
+  padding-bottom: 15%;
 }
 
 .project {
-top: 5%;
+grid-area: a;
 border-radius: 1.5rem;
+margin: auto;
 }
+
+.project1 {
+  position: relative;
+  width: 95%;
+  grid-area: a;
+  border-radius: 1.5rem;
+}
+
+.project7 {
+  position: relative;
+  width: 58.5%;
+  grid-area: a;
+  border-radius: 1.5rem;
+}
+
+.project8 {
+  position: relative;
+  width: 33%;
+  grid-area: a;
+  border-radius: 1.5rem;
+  right: 60%;
+  }
 
 /* project container */
 
@@ -444,13 +497,43 @@ border-radius: 1.5rem;
 .project-text-wrapper {
   width: 100%;
   /* padding-bottom: 45%; */
-  grid-area: a;
+  grid-area: b;
+}
+
+.project-wrapper {
+  padding-bottom: 10%;
+  margin: auto;
 }
 
 .project {
-top: 20%;
-border-radius: 1.5rem;
+border-radius: 1.2rem;
+grid-area: a;
 }
+
+.project1 {
+  position: relative;
+  width: 95%;
+  grid-area: a;
+  border-radius: 1.2rem;
+}
+
+.project7 {
+  position: relative;
+  margin: auto;
+  width: 95%;
+  grid-area: a;
+  border-radius: 1.2rem;
+  left: 0%;
+}
+
+.project8 {
+  position: relative;
+  width: 95%;
+  grid-area: a;
+  border-radius: 1.2rem;
+  top: 100%;
+  right: 0%;
+  }
 
 /* project container */
 
