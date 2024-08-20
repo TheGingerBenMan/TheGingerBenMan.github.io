@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    font-family: Jost, sans-serif;
+    font-family: 'kanit', sans-serif;
   }
   
   body {
@@ -80,22 +80,22 @@
     /* font-size: 45px; */
     font-size: calc(1.5vw + 1.5vh);
     font-weight: 700;
-    font-family: 'jost', sans-serif;
+    font-family: 'kanit', sans-serif;
   }
   
   .project-subtitle {
     /* font-size: 30px; */
     font-size: calc(.8vw + .8vh);
     font-weight: 500;
-    font-family: 'jost', sans-serif;
+    font-family: 'kanit', sans-serif;
     color: rgb(0, 111, 255);
   }
 
   .project-text3 {
     /* font-size: 18px; */
     font-size: calc(.7vw + .7vh);
-    font-weight: 400;
-    font-family: 'jost', sans-serif;
+    font-weight: 300;
+    font-family: 'kanit', sans-serif;
     line-height: 150%;
     top: 35px;
     position: relative;
@@ -105,8 +105,8 @@
   .project-text2 {
     /* font-size: 18px; */
     font-size: calc(.7vw + .7vh);
-    font-weight: 400;
-    font-family: 'jost', sans-serif;
+    font-weight: 300;
+    font-family: 'kanit', sans-serif;
     line-height: 150%;
     top: 15px;
     position: relative;
@@ -116,8 +116,8 @@
   .project-text {
     /* font-size: 18px; */
     font-size: calc(.7vw + .7vh);
-    font-weight: 400;
-    font-family: 'jost', sans-serif;
+    font-weight: 300;
+    font-family: 'kanit', sans-serif;
     line-height: 150%;
     top: 15px;
     position: relative;
@@ -231,7 +231,7 @@
   .extras { 
     font-size: calc(1.5vw + 1.5vh);
     font-weight: 700;
-    font-family: 'jost', sans-serif;
+    font-family: 'kanit', sans-serif;
     color: rgb(0, 111, 255);
     text-align: left;
     padding-left: 8%;
@@ -253,8 +253,8 @@
   
   .footer p {
     font-size: calc(.8vw + .8vh);
-    font-weight: 400;
-    font-family: 'jost', sans-serif;
+    font-weight: 300;
+    font-family: 'kanit', sans-serif;
     line-height: 150%;
     top: 15px;
     position: relative;

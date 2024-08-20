@@ -9,7 +9,7 @@
     color: rgb(89, 150, 255);
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Kanit', sans-serif;
     text-transform: uppercase;
     text-align: left;
     margin-bottom: 16px;
@@ -18,7 +18,7 @@
     color: #888;
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Kanit', sans-serif;
     line-height: 1.5;
     text-align: left;
     margin-bottom: 32px;
@@ -38,7 +38,7 @@
     color: #888;
     font-size: 14px;
     font-weight: 300;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 .section-contact .container form .form-group .form-element {
     appearance: none;
@@ -114,7 +114,7 @@ input {
 
 input::file-selector-button {
     font-weight: 600;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Kanit', sans-serif;
     color: dodgerblue;
     background-color: #f3f3f37a;
     padding: 0.5em;
