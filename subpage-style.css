@@ -198,7 +198,7 @@
     bottom: 3.5rem;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 101;
+    z-index: 2;
   }
   
   .slider-nav a {
