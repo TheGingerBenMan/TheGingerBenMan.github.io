@@ -41,7 +41,7 @@
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  color: #ffe600;
+  color: #9fcaff;
 }
 
 /* Style the active link (or home/logo) */
@@ -96,7 +96,7 @@ img {
 }
 
 a:hover{
-  color: #ffea00;
+  /* color: #afe7ff; */
   /* color: rgb(187, 234, 255); */
 }
 

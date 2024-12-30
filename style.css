@@ -82,8 +82,7 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
 }
 
 .portfolio-container {
-  /* background-image: url(assets/Background_Gradient.png); */
-  /* padding-bottom: 8%; */
+  background-color: rgba(0, 0, 0, 0.025);
 }
 
 /* .box1 {
@@ -109,7 +108,7 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
 } */
 
 .box {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   text-shadow: 0rem 0rem 2rem #000000;
   height: 20rem;
@@ -266,20 +265,20 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
   margin: auto;
   padding-top: 3%;
   width: 85%;
-  text-shadow: 1px 1px 4px black;
+  /* text-shadow: 1px 1px 4px black; */
 }
 
 .archive-icon {
-  fill:#fff;
+  fill: rgba(29, 29, 31, 0.65);
 }
 
 .archive-icon:hover{
-  fill: #ffea00;
+  fill: rgba(29, 29, 31, 0.216);
 }
 
 .project-title {
   font-size: calc(1.2vw + 1.2vh);
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'kanit', sans-serif;
   color: rgb(255, 255, 255);
   text-align: right;
@@ -328,7 +327,7 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
 .me{
   /* font-size: 45px; */
   font-size: calc(2vw + 2vh);
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'kanit', sans-serif;
 }
 
@@ -347,6 +346,7 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
   font-family: 'kanit', sans-serif;
   line-height: 150%;
   padding-top: 1rem;
+  color: rgba(29, 29, 31, 0.65);
 }
 
 .abouttext2 {
@@ -355,18 +355,14 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
   font-family: 'kanit', sans-serif;
   line-height: 150%;
   padding-top: 1rem;
+  color: rgba(29, 29, 31, 0.65);
 }
 
-.about-text-wrapper {
-  /* width: 135%;
-  padding-bottom: 45%; */
-}
 
 .benjamin {
   position: relative;
   width: 95%;
   left: 10%;
-
 }
 
 .button-resume {
@@ -410,7 +406,7 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
   height: auto;
   margin: auto;
   padding-top: 12%;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.025);
   padding-bottom: 10%;
 }
 
@@ -432,7 +428,7 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
 
 .boxy h1 {
   font-size: calc(2vw + 2vh);
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'kanit', sans-serif;
 }
 
@@ -441,6 +437,7 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
   font-weight: 300;
   font-family: 'kanit', sans-serif;
   width: 85%;
+  color: rgba(29, 29, 31, 0.65);
 }
 
 .form-group {
@@ -457,16 +454,18 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
 .LinkedinSVG {
  position: relative;
  top: .4rem;
+ width: 8%;
 }
 
 .GmailSVG {
   position: relative;
   top: .4rem;
+  width: 8%;
  }
 
 .linkedin-link {
   font-size: calc(.9vw + .9vh);
-  font-weight: 500;
+  font-weight: 400;
   font-family: 'kanit', sans-serif;
   color: rgb(0, 111, 255); 
   text-decoration: none;
@@ -475,7 +474,7 @@ background: linear-gradient(315deg, #0abcf9 0%, #2c69d1 74%);
 
 .gmail-link {
   font-size: calc(.9vw + .9vh);
-  font-weight: 500;
+  font-weight: 400;
   font-family: 'kanit', sans-serif;
   color: rgb(0, 111, 255); 
   text-decoration: none;
@@ -681,7 +680,6 @@ html {
 
 .me{
   font-size: calc(2.5vw + 2.5vh);
-  font-weight: 700;
   font-family: 'kanit', sans-serif;
 }
 
@@ -691,14 +689,12 @@ html {
 
 .abouttext {
   font-size: calc(1.2vw + 1.2vh);
-  font-weight: 300;
   font-family: 'kanit', sans-serif;
   line-height: 150%;
 }
 
 .abouttext2 {
   font-size: calc(1.2vw + 1.2vh);
-  font-weight: 300;
   font-family: 'kanit', sans-serif;
   line-height: 150%;
 }
@@ -755,7 +751,7 @@ html {
 }
 
 .boxy {
-  width: 80%;
+  width: 85%;
   padding-bottom: 10%;
   left: 5%;
   position: relative;
@@ -836,7 +832,7 @@ html {
  /* portfolio */
   .portfolio-container-box { 
     display:grid;
-    width: 80%;
+    width: 85%;
     padding-top: 50px;
     margin: 0px auto;
     grid-gap: 20px;
@@ -944,25 +940,22 @@ html {
 }
 
 .me{
-  font-size: calc(2.5vw + 2.5vh);
-  font-weight: 700;
+  font-size: calc(2.55vw + 2.55vh);
   font-family: 'kanit', sans-serif;
 }
 
 .job {
-  font-size: calc(1.5vw + 1.5vh);
+  font-size: calc(1.45vw + 1.45vh);
 }
 
 .abouttext {
-  font-size: calc(1.2vw + 1.2vh);
-  font-weight: 300;
+  font-size: calc(1.25vw + 1.25vh);
   font-family: 'kanit', sans-serif;
   line-height: 150%;
 }
 
 .abouttext2 {
-  font-size: calc(1.2vw + 1.2vh);
-  font-weight: 300;
+  font-size: calc(1.25vw + 1.25vh);
   font-family: 'kanit', sans-serif;
   line-height: 150%;
 }
@@ -1005,7 +998,7 @@ html {
 
 .contact-section-container-box {
   display:grid;
-  width: 80%;
+  width: 85%;
   padding-top: 50px;
   margin: 0px auto;
   grid-template-columns: 1fr;
@@ -1025,15 +1018,15 @@ html {
 }
 
 .boxy h1 {
-  font-size: calc(2.5vw + 2.5vh);
-  padding-bottom: 5%;
+  font-size: calc(2.55vw + 2.55vh);
+  padding-bottom: 2%;
 }
 
 .boxy p {
-  font-size: calc(1.18vw + 1.18vh);
+  font-size: calc(1.25vw + 1.25vh);
   width: 118%;
   padding-bottom: 5%;
-  width: 80%;
+  width: 85%;
 }
 
 .LinkedinSVG {
@@ -1049,12 +1042,12 @@ html {
  }
 
 .linkedin-link {
-  font-size: calc(1.2vw + 1.2vh);
+  font-size: calc(1.25vw + 1.25vh);
   padding-left: 3%;
 }
 
 .gmail-link {
-  font-size: calc(1.2vw + 1.2vh);
+  font-size: calc(1.25vw + 1.25vh);
   padding-left: 3%;
 }
 
