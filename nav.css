@@ -14,13 +14,6 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-.type-logo{
-    position: absolute;
-    width: 9%;
-    left: 85%;
-    display: block;
-}
-
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
@@ -184,12 +177,6 @@ nav{
   margin: auto;
   z-index:10;
   width: 100%;
-  /* display: flex;
-  margin: 0 auto;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center; */
   font-family: 'Kanit', sans-serif;
   
 } 
@@ -202,17 +189,27 @@ nav{
       border-right: 2px solid rgba(255, 255, 255, 0.2);
       border-bottom: 2px solid rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(10px);
+      height: 50px;
+}
+
+.type-logo{
+  position: absolute;
+  width: 9%;
+  right: 84%;
+  display: block;
 }
 
     .link{
-        font-size: 18px;
+        font-size: 16px;
         font-family: 'Kanit', sans-serif;
         position: relative;
       }
 
         ul {
           gap: .1rem;
-          margin-left: 6%;
+          margin-right: 6%;
+          float: right;
+          height: 50px;
       }      
       li{
         text-align: right;
